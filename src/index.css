@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
-    /* background: #0059FF; */
+    /* background: #373839; */
 }
 
 .container {
@@ -82,14 +82,15 @@
 /* button */
 
 button {
+    width: 40%;
+    margin-top: 2%;
     color: #090909;
     padding: 0.7em 0.7em;
     font-size: 18px;
-    /* border-radius: 0.5em; */
-    /* background: #e8e8e8; */
     cursor: pointer;
     border: 1px solid #e8e8e8;
     transition: all 0.3s;
+    border-radius: 15%;
 }
 
 button:active {

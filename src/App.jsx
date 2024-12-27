@@ -18,6 +18,7 @@ function App() {
     "November",
     "December",
   ]
+  
   const month=months[date.getMonth()]
   const dates=date.getDate();
   const year=date.getFullYear();
@@ -65,6 +66,8 @@ function App() {
         return "/sun.png"
       case "Clear":
         return "/clear.png"
+      case "Thunderstorm":
+        return "/thunderstorm.jpeg"
       default:
         return null;
     }
