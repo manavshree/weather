@@ -68,6 +68,8 @@ function App() {
         return "/clear.png"
       case "Thunderstorm":
         return "/thunderstorm.jpeg"
+      case "Fog":
+        return "/thunderstorm.jpeg"
       default:
         return null;
     }
