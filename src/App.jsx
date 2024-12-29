@@ -99,7 +99,7 @@ function App() {
                 <form className='form' onSubmit={handleSubmit}>
                   <input type="text" className='input' placeholder='Enter City Here....' onChange={handleInputChange} value={city} />
                   <br />
-                  <button type='submit'> Find </button>
+                  <button type='submit'> Search </button>
                 </form>
               </div>
             </>
