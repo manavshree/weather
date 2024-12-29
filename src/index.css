@@ -33,7 +33,7 @@
     margin-top: 1rem;
     font-size: 37px;
     font-weight: 700;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .container_degree {
@@ -56,7 +56,7 @@
 .container_para {
     position: relative;
     top: -15px;
-    color: white;
+    color: rgb(237, 237, 237);
     font-size: 18px;
 }
 
@@ -64,8 +64,8 @@
     border: none;
     padding: 1rem;
     border-radius: 0px 0px 0px 15px;
-    background: #e8e8e8;
-    /* box-shadow: 20px 20px 60px #c5c5c5, -20px -20px 60px #ffffff; */
+    background: #bbd8fb;
+    box-shadow: 20px 20px 60px #c5c5c5, -20px -20px 60px #ffffff;
     transition: 0.3s;
     position: relative;
     top: -2px;
@@ -91,13 +91,27 @@ button {
     border: 1px solid #e8e8e8;
     transition: all 0.3s;
     border-radius: 15%;
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.2), inset -10px -10px 20px rgba(255, 255, 255, 0.5);
+    background: linear-gradient(145deg, #7aebdd, #5bc4ed);
+    transform: scale(0.98);
 }
 
 button:active {
     color: #666;
-    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.2), inset -10px -10px 20px rgba(255, 255, 255, 0.5);
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    transform: scale(0.98);
 }
 
 .form {
-    margin-top: 3rem;
+    margin-top: 4rem;
+}
+
+.errors {
+    color: rgb(243, 157, 157);
+    margin-top: 250px;
+    text-align: center;
+    opacity: 100%;
+    font-size: 30px;
+    font-weight: bold;
 }
